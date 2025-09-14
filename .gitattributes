@@ -1,1 +1,20 @@
+# Git LFS organization
 Content/** filter=lfs diff=lfs merge=lfs -text
+Content/FMOD/**/*.bank filter=lfs diff=lfs merge=lfs -text
+
+# Normalize line endings (LF in repo, native on checkout)
+* text=auto
+
+# Force consistent line endings for Unreal configs
+*.ini text eol=lf
+*.uproject text eol=lf
+*.uplugin text eol=lf
+
+# Binary assets (never diff/merge)
+*.uasset binary
+*.umap binary
+*.bank  binary
+*.dll   binary
+*.lib   binary
+*.exe   binary
+*.pdb   binary
