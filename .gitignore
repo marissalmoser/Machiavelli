@@ -5,8 +5,9 @@ Intermediate/*
 Saved/*
 
 # IDE and VS build files
-.vscode
-.vs
+.vscode/
+.vs/
+.idea/*
 *.VC.db
 *.opensdf
 *.opendb
