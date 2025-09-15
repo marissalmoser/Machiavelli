@@ -1,14 +1,16 @@
 # Unreal Engine auto-generated folders
-Binaries/*
-DerivedDataCache/*
-Intermediate/*
-Saved/*
+Binaries/**
+DerivedDataCache/**
+Intermediate/**
+Saved/**
+Content/StarterContent/**
+
 
 # Plugins: ignore temp but keep FMOD source & binaries
-Plugins/*/Intermediate/*
-Plugins/*/Saved/*
-Plugins/*/Build/*
-Plugins/*/Binaries/*
+Plugins/*/Intermediate/**
+Plugins/*/Saved/**
+Plugins/*/Build/**
+Plugins/*/Binaries/**
 
 !Plugins/FMODStudio/Source/**
 !Plugins/FMODStudio/Binaries/**
@@ -45,8 +47,8 @@ Content/FMOD/Desktop/*
 !Content/FMOD/Desktop/*.bank
 
 # ignore only editor .ddls
-Plugins/FMODStudio/Binaries/Win64/UnrealEditor-FMODStudio*.dll
-Plugins/FMODStudio/Binaries/Win64/UnrealEditor-FMODStudioEditor*.dll
+Plugins/FMODStudio/Binaries/Win64/UnrealEditor-FMODStudio.dll
+Plugins/FMODStudio/Binaries/Win64/UnrealEditor-FMODStudioEditor.dll
 
 # Log files can be ignored.
 fmod_editor.log
