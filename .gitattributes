@@ -11,10 +11,10 @@ Content/FMOD/**/*.bank filter=lfs diff=lfs merge=lfs -text
 *.uplugin text eol=lf
 
 # Binary assets (never diff/merge)
-*.uasset binary
-*.umap binary
-*.bank  binary
-*.dll   binary
-*.lib   binary
-*.exe   binary
-*.pdb   binary
+*.uasset binary merge=ours
+*.umap   binary merge=ours
+*.bank   binary merge=ours
+*.dll    binary merge=ours
+*.lib    binary merge=ours
+*.exe    binary merge=ours
+*.pdb    binary merge=ours
