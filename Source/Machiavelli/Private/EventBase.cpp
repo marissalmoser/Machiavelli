@@ -3,13 +3,18 @@
 
 #include "EventBase.h"
 
-bool UEventBase::ShouldTrigger_Implementation(UObject* Context)
+bool UEventBase::ShouldExecute_Implementation(UObject* Context, int32 Quarters)
 {
-    // Default implementation: always true
-    return true;
+    // Default implementation false to not fire base class events
+    return false;
 }
 
 void UEventBase::Execute_Implementation(UObject* Context)
 {
     // Default implementation: does nothing
+}
+
+void UEventBase::Init_Implementation(UObject* Context)
+{
+    _context = Context;
 }

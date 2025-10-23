@@ -15,16 +15,17 @@ class MACHIAVELLI_API UEventBase : public UObject
 	GENERATED_BODY()
 
 public:
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Event")
-    FText EventTitle;
-
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Event")
-    FText EventDescription;
-
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category = "Event")
-    bool ShouldTrigger(UObject* Context);
+    bool ShouldExecute(UObject* Context, int32 Quarters);
 
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category = "Event")
     void Execute(UObject* Context);
+
+    UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category = "Event")
+    void Init(UObject* Context);
+
+protected:
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Event")
+    UObject* _context;
 
 };
