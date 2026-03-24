@@ -29,7 +29,9 @@ struct Z_Construct_UClass_UNiagaraUIComponent_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * \n */" },
+#endif
 		{ "HideCategories", "Object Physics Collision Mobility VirtualTexture" },
 		{ "IncludePath", "NiagaraUIComponent.h" },
 		{ "ModuleRelativePath", "Public/NiagaraUIComponent.h" },
@@ -79,14 +81,14 @@ UNiagaraUIComponent::~UNiagaraUIComponent() {}
 // End Class UNiagaraUIComponent
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_HostProject_Plugins_NiagaraUIRenderer_Source_NiagaraUIRenderer_Public_NiagaraUIComponent_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_Rink_Desu_Documents_Unreal_Projects_Machiavelli_Plugins_NiagaraUIRenderer_v1_1_8_5_5_NiagaraUIRenderer_Source_NiagaraUIRenderer_Public_NiagaraUIComponent_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UNiagaraUIComponent, UNiagaraUIComponent::StaticClass, TEXT("UNiagaraUIComponent"), &Z_Registration_Info_UClass_UNiagaraUIComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UNiagaraUIComponent), 3511763754U) },
+		{ Z_Construct_UClass_UNiagaraUIComponent, UNiagaraUIComponent::StaticClass, TEXT("UNiagaraUIComponent"), &Z_Registration_Info_UClass_UNiagaraUIComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UNiagaraUIComponent), 3512652040U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_NiagaraUIRenderer_Source_NiagaraUIRenderer_Public_NiagaraUIComponent_h_3396694114(TEXT("/Script/NiagaraUIRenderer"),
-	Z_CompiledInDeferFile_FID_HostProject_Plugins_NiagaraUIRenderer_Source_NiagaraUIRenderer_Public_NiagaraUIComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_NiagaraUIRenderer_Source_NiagaraUIRenderer_Public_NiagaraUIComponent_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Rink_Desu_Documents_Unreal_Projects_Machiavelli_Plugins_NiagaraUIRenderer_v1_1_8_5_5_NiagaraUIRenderer_Source_NiagaraUIRenderer_Public_NiagaraUIComponent_h_505568604(TEXT("/Script/NiagaraUIRenderer"),
+	Z_CompiledInDeferFile_FID_Users_Rink_Desu_Documents_Unreal_Projects_Machiavelli_Plugins_NiagaraUIRenderer_v1_1_8_5_5_NiagaraUIRenderer_Source_NiagaraUIRenderer_Public_NiagaraUIComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Rink_Desu_Documents_Unreal_Projects_Machiavelli_Plugins_NiagaraUIRenderer_v1_1_8_5_5_NiagaraUIRenderer_Source_NiagaraUIRenderer_Public_NiagaraUIComponent_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

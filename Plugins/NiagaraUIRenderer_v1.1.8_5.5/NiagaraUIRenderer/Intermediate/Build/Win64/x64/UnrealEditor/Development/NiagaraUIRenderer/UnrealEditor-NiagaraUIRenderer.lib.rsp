@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-NiagaraUIRenderer.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Rink Desu\Documents\Unreal Projects\Machiavelli\Intermediate\Build\Win64\x64\MachiavelliEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"C:\Users\Rink Desu\Documents\Unreal Projects\Machiavelli\Plugins\NiagaraUIRenderer_v1.1.8_5.5\NiagaraUIRenderer\Intermediate\Build\Win64\x64\UnrealEditor\Development\NiagaraUIRenderer\Module.NiagaraUIRenderer.cpp.obj"
+"C:\Users\Rink Desu\Documents\Unreal Projects\Machiavelli\Plugins\NiagaraUIRenderer_v1.1.8_5.5\NiagaraUIRenderer\Intermediate\Build\Win64\x64\UnrealEditor\Development\NiagaraUIRenderer\Default.rc2.res"
+/OUT:"C:\Users\Rink Desu\Documents\Unreal Projects\Machiavelli\Plugins\NiagaraUIRenderer_v1.1.8_5.5\NiagaraUIRenderer\Intermediate\Build\Win64\x64\UnrealEditor\Development\NiagaraUIRenderer\UnrealEditor-NiagaraUIRenderer.lib"

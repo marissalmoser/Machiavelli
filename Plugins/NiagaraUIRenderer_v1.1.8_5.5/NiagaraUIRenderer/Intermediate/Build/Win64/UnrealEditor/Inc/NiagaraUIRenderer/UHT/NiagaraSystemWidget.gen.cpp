@@ -32,9 +32,13 @@ struct Z_Construct_UFunction_UNiagaraSystemWidget_ActivateSystem_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Niagara UI Renderer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Activate Niagara System with option to reset the simulation\n" },
+#endif
 		{ "ModuleRelativePath", "Public/NiagaraSystemWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Activate Niagara System with option to reset the simulation" },
+#endif
 	};
 #endif // WITH_METADATA
 	static void NewProp_Reset_SetBit(void* Obj);
@@ -78,9 +82,13 @@ struct Z_Construct_UFunction_UNiagaraSystemWidget_DeactivateSystem_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Niagara UI Renderer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Deactivate Niagara System\n" },
+#endif
 		{ "ModuleRelativePath", "Public/NiagaraSystemWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Deactivate Niagara System" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -114,9 +122,13 @@ struct Z_Construct_UFunction_UNiagaraSystemWidget_GetNiagaraComponent_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Niagara UI Renderer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Return Niagara Component reference for the particle system.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/NiagaraSystemWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Return Niagara Component reference for the particle system." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReturnValue_MetaData[] = {
 		{ "EditInline", "true" },
@@ -162,9 +174,13 @@ struct Z_Construct_UFunction_UNiagaraSystemWidget_GetRemapMaterial_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Niagara UI Renderer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Returns a remap material for a given original particle material specified in the Niagara Emitter \n" },
+#endif
 		{ "ModuleRelativePath", "Public/NiagaraSystemWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns a remap material for a given original particle material specified in the Niagara Emitter" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_OriginalMaterial;
@@ -210,9 +226,13 @@ struct Z_Construct_UFunction_UNiagaraSystemWidget_SetColorAndOpacity_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Niagara UI Renderer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Set the color and opacity to a specified value\n" },
+#endif
 		{ "ModuleRelativePath", "Public/NiagaraSystemWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set the color and opacity to a specified value" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStructPropertyParams NewProp_InColorAndOpacity;
@@ -255,9 +275,13 @@ struct Z_Construct_UFunction_UNiagaraSystemWidget_SetDesiredWidgetSize_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Niagara UI Renderer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Updates the desired widget size. If calling from code call this instead of setting the DesiredWidgetSize directly.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/NiagaraSystemWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Updates the desired widget size. If calling from code call this instead of setting the DesiredWidgetSize directly." },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStructPropertyParams NewProp_NewDesiredSize;
@@ -301,9 +325,13 @@ struct Z_Construct_UFunction_UNiagaraSystemWidget_SetRemapMaterial_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Niagara UI Renderer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** \n\x09 *\x09Sets / Updates a remap material for a source particle material\n\x09 *\x09@param\x09OriginalMaterial\x09Source material specified in the Niagara Emitter that should be remapped to a new one\n\x09 *\x09@param\x09RemapMaterial\x09\x09""A new remap material that should be used when rendering UI\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/NiagaraSystemWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets / Updates a remap material for a source particle material\n@param  OriginalMaterial        Source material specified in the Niagara Emitter that should be remapped to a new one\n@param  RemapMaterial           A new remap material that should be used when rendering UI" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_OriginalMaterial;
@@ -350,9 +378,13 @@ struct Z_Construct_UFunction_UNiagaraSystemWidget_UpdateNiagaraSystemReference_S
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Niagara UI Renderer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Updates the Niagara System reference. This will cause the particle system to reset\n" },
+#endif
 		{ "ModuleRelativePath", "Public/NiagaraSystemWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Updates the Niagara System reference. This will cause the particle system to reset" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_NewNiagaraSystem;
@@ -395,9 +427,13 @@ struct Z_Construct_UFunction_UNiagaraSystemWidget_UpdateTickWhenPaused_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Niagara UI Renderer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Updates Tick When Paused - Should be this particle system updated even when the game is paused? Note that this will reset the particle simulation\n" },
+#endif
 		{ "ModuleRelativePath", "Public/NiagaraSystemWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Updates Tick When Paused - Should be this particle system updated even when the game is paused? Note that this will reset the particle simulation" },
+#endif
 	};
 #endif // WITH_METADATA
 	static void NewProp_NewTickWhenPaused_SetBit(void* Obj);
@@ -485,92 +521,144 @@ struct Z_Construct_UClass_UNiagaraSystemWidget_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n The Niagara System Widget allows to render niagara particle system directly into the UI. Only sprite and ribbon CPU particles are supported.\n */" },
+#endif
 		{ "IncludePath", "NiagaraSystemWidget.h" },
 		{ "ModuleRelativePath", "Public/NiagaraSystemWidget.h" },
 		{ "ObjectInitializerConstructorDeclared", "" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The Niagara System Widget allows to render niagara particle system directly into the UI. Only sprite and ribbon CPU particles are supported." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_NiagaraSystemReference_MetaData[] = {
 		{ "BlueprintSetter", "UpdateNiagaraSystemReference" },
 		{ "Category", "Niagara UI Renderer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Reference to the niagara system asset\n" },
+#endif
 		{ "DisplayName", "Niagara System" },
 		{ "ModuleRelativePath", "Public/NiagaraSystemWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Reference to the niagara system asset" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MaterialRemapList_MetaData[] = {
 		{ "Category", "Niagara UI Renderer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/*\n\x09\x09List of material references used to remap materials on the particle system, to materials with \"User Interface\" material domain.\n\n\x09\x09""Every Key (Material on the left) will be remapped to its Value (Material on the right)\n\n\x09\x09This is useful for keeping the particle system rendering correctly in the niagara editor and in the world, while it still can be used as UI particle system.\n\n\x09\x09The alternative is to apply materials with \"User Interface\" material domain directly in niagara renderers, but this will result in particle system\n\x09\x09not rendering correctly, if used outside UI renderer.\n\x09*/" },
+#endif
 		{ "ModuleRelativePath", "Public/NiagaraSystemWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "List of material references used to remap materials on the particle system, to materials with \"User Interface\" material domain.\n\nEvery Key (Material on the left) will be remapped to its Value (Material on the right)\n\nThis is useful for keeping the particle system rendering correctly in the niagara editor and in the world, while it still can be used as UI particle system.\n\nThe alternative is to apply materials with \"User Interface\" material domain directly in niagara renderers, but this will result in particle system\nnot rendering correctly, if used outside UI renderer." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AutoActivate_MetaData[] = {
 		{ "Category", "Niagara UI Renderer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Should be this particle system automatically activated?\n" },
+#endif
 		{ "ModuleRelativePath", "Public/NiagaraSystemWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Should be this particle system automatically activated?" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TickWhenPaused_MetaData[] = {
 		{ "BlueprintSetter", "UpdateTickWhenPaused" },
 		{ "Category", "Niagara UI Renderer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Should be this particle system updated even when the game is paused?\n" },
+#endif
 		{ "ModuleRelativePath", "Public/NiagaraSystemWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Should be this particle system updated even when the game is paused?" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DesiredWidgetSize_MetaData[] = {
 		{ "BlueprintSetter", "SetDesiredWidgetSize" },
 		{ "Category", "Niagara UI Renderer" },
 		{ "ClampMin", "0.000000" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// The size of this particle widget used when calculating it's desired size. Don't set directly from code, call SetDesiredWidgetSize instead.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/NiagaraSystemWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The size of this particle widget used when calculating it's desired size. Don't set directly from code, call SetDesiredWidgetSize instead." },
+#endif
 		{ "UIMax", "4096.000000" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ColorAndOpacity_MetaData[] = {
 		{ "BlueprintSetter", "SetColorAndOpacity" },
 		{ "Category", "Niagara UI Renderer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// This color will be used as a multiplier with the particle color to calculate the final vertex color\n" },
+#endif
 		{ "ModuleRelativePath", "Public/NiagaraSystemWidget.h" },
 		{ "sRGB", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This color will be used as a multiplier with the particle color to calculate the final vertex color" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FakeDepthScale_MetaData[] = {
 		{ "Category", "Niagara UI Renderer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Scale particles based on their position in Y-axis (towards the camera)\n" },
+#endif
 		{ "ModuleRelativePath", "Public/NiagaraSystemWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Scale particles based on their position in Y-axis (towards the camera)" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FakeDepthScaleDistance_MetaData[] = {
 		{ "Category", "Niagara UI Renderer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Fake distance from camera if the particle is at 0 0 0 - Particles will be getting bigger quicker the lower this number is\n" },
+#endif
 		{ "EditCondition", "FakeDepthScale" },
 		{ "ModuleRelativePath", "Public/NiagaraSystemWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Fake distance from camera if the particle is at 0 0 0 - Particles will be getting bigger quicker the lower this number is" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ShowDebugSystemInWorld_MetaData[] = {
 		{ "Category", "Niagara UI Renderer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Show debug particle system we're rendering in the game world. It'll be near 0 0 0\n" },
+#endif
 		{ "ModuleRelativePath", "Public/NiagaraSystemWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Show debug particle system we're rendering in the game world. It'll be near 0 0 0" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PassDynamicParametersFromRibbon_MetaData[] = {
 		{ "Category", "Niagara UI Renderer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Should the dynamic parameters R and G channels be passed as UV1 coordinates from ribbon renderers? This replaces the generated UV1 coordinates, which on the use case might be worth the tradeoff.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/NiagaraSystemWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Should the dynamic parameters R and G channels be passed as UV1 coordinates from ribbon renderers? This replaces the generated UV1 coordinates, which on the use case might be worth the tradeoff." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DisableWarnings_MetaData[] = {
 		{ "Category", "Niagara UI Renderer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Disable warnings for this Widget\n" },
+#endif
 		{ "ModuleRelativePath", "Public/NiagaraSystemWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Disable warnings for this Widget" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RestartSimulationOnPropertyChange_MetaData[] = {
 		{ "Category", "Niagara UI Renderer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Should the system restart simulation when a property is changed\n" },
+#endif
 		{ "ModuleRelativePath", "Public/NiagaraSystemWidget.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Should the system restart simulation when a property is changed" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_NiagaraActor_MetaData[] = {
 		{ "ModuleRelativePath", "Public/NiagaraSystemWidget.h" },
@@ -606,15 +694,15 @@ struct Z_Construct_UClass_UNiagaraSystemWidget_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UNiagaraSystemWidget_ActivateSystem, "ActivateSystem" }, // 79746762
-		{ &Z_Construct_UFunction_UNiagaraSystemWidget_DeactivateSystem, "DeactivateSystem" }, // 4128028064
-		{ &Z_Construct_UFunction_UNiagaraSystemWidget_GetNiagaraComponent, "GetNiagaraComponent" }, // 4019889915
-		{ &Z_Construct_UFunction_UNiagaraSystemWidget_GetRemapMaterial, "GetRemapMaterial" }, // 2363514700
-		{ &Z_Construct_UFunction_UNiagaraSystemWidget_SetColorAndOpacity, "SetColorAndOpacity" }, // 2459394536
-		{ &Z_Construct_UFunction_UNiagaraSystemWidget_SetDesiredWidgetSize, "SetDesiredWidgetSize" }, // 2838502410
-		{ &Z_Construct_UFunction_UNiagaraSystemWidget_SetRemapMaterial, "SetRemapMaterial" }, // 180579938
-		{ &Z_Construct_UFunction_UNiagaraSystemWidget_UpdateNiagaraSystemReference, "UpdateNiagaraSystemReference" }, // 4268453612
-		{ &Z_Construct_UFunction_UNiagaraSystemWidget_UpdateTickWhenPaused, "UpdateTickWhenPaused" }, // 2665333129
+		{ &Z_Construct_UFunction_UNiagaraSystemWidget_ActivateSystem, "ActivateSystem" }, // 3740975795
+		{ &Z_Construct_UFunction_UNiagaraSystemWidget_DeactivateSystem, "DeactivateSystem" }, // 1759015262
+		{ &Z_Construct_UFunction_UNiagaraSystemWidget_GetNiagaraComponent, "GetNiagaraComponent" }, // 2752915433
+		{ &Z_Construct_UFunction_UNiagaraSystemWidget_GetRemapMaterial, "GetRemapMaterial" }, // 4041223328
+		{ &Z_Construct_UFunction_UNiagaraSystemWidget_SetColorAndOpacity, "SetColorAndOpacity" }, // 1049850294
+		{ &Z_Construct_UFunction_UNiagaraSystemWidget_SetDesiredWidgetSize, "SetDesiredWidgetSize" }, // 2096955682
+		{ &Z_Construct_UFunction_UNiagaraSystemWidget_SetRemapMaterial, "SetRemapMaterial" }, // 2689415796
+		{ &Z_Construct_UFunction_UNiagaraSystemWidget_UpdateNiagaraSystemReference, "UpdateNiagaraSystemReference" }, // 3943926695
+		{ &Z_Construct_UFunction_UNiagaraSystemWidget_UpdateTickWhenPaused, "UpdateTickWhenPaused" }, // 3082534958
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -722,14 +810,14 @@ UNiagaraSystemWidget::~UNiagaraSystemWidget() {}
 // End Class UNiagaraSystemWidget
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_HostProject_Plugins_NiagaraUIRenderer_Source_NiagaraUIRenderer_Public_NiagaraSystemWidget_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_Rink_Desu_Documents_Unreal_Projects_Machiavelli_Plugins_NiagaraUIRenderer_v1_1_8_5_5_NiagaraUIRenderer_Source_NiagaraUIRenderer_Public_NiagaraSystemWidget_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UNiagaraSystemWidget, UNiagaraSystemWidget::StaticClass, TEXT("UNiagaraSystemWidget"), &Z_Registration_Info_UClass_UNiagaraSystemWidget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UNiagaraSystemWidget), 1593819372U) },
+		{ Z_Construct_UClass_UNiagaraSystemWidget, UNiagaraSystemWidget::StaticClass, TEXT("UNiagaraSystemWidget"), &Z_Registration_Info_UClass_UNiagaraSystemWidget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UNiagaraSystemWidget), 3625849867U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_NiagaraUIRenderer_Source_NiagaraUIRenderer_Public_NiagaraSystemWidget_h_3302749074(TEXT("/Script/NiagaraUIRenderer"),
-	Z_CompiledInDeferFile_FID_HostProject_Plugins_NiagaraUIRenderer_Source_NiagaraUIRenderer_Public_NiagaraSystemWidget_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_NiagaraUIRenderer_Source_NiagaraUIRenderer_Public_NiagaraSystemWidget_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Rink_Desu_Documents_Unreal_Projects_Machiavelli_Plugins_NiagaraUIRenderer_v1_1_8_5_5_NiagaraUIRenderer_Source_NiagaraUIRenderer_Public_NiagaraSystemWidget_h_3604300338(TEXT("/Script/NiagaraUIRenderer"),
+	Z_CompiledInDeferFile_FID_Users_Rink_Desu_Documents_Unreal_Projects_Machiavelli_Plugins_NiagaraUIRenderer_v1_1_8_5_5_NiagaraUIRenderer_Source_NiagaraUIRenderer_Public_NiagaraSystemWidget_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Rink_Desu_Documents_Unreal_Projects_Machiavelli_Plugins_NiagaraUIRenderer_v1_1_8_5_5_NiagaraUIRenderer_Source_NiagaraUIRenderer_Public_NiagaraSystemWidget_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration
